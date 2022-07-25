@@ -1,0 +1,23 @@
+{
+  "name": "ifc",
+  "version": "0.0.1",
+  "description": "This is an ifc viewer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielWiinberg/ifc.js.git"
+  },
+  "author": "Daniel Wiinberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielWiinberg/ifc.js/issues"
+  },
+  "homepage": "https://github.com/DanielWiinberg/ifc.js#readme",
+  "dependencies": {
+    "three": "^0.135.0",
+    "web-ifc-viewer": "^1.0.207"
+  }
+}
