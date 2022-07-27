@@ -12,4 +12,4 @@ async function loadIfc(url) {
     viewer.shadowDropper.renderShadow(model.modelID);
 }
 
-loadIfc("./VAL_F2_ENG_K09_S1_H0_SKA_001.ifc");
+loadIfc("./ifc_files/VAL_F2_ENG_K09_S1_H0_SKA_001.ifc");
