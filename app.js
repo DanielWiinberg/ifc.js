@@ -8,8 +8,6 @@ const viewer = new IfcViewerAPI({ container, backgroundColor: new Color(0xffffff
 viewer.grid.setGrid();
 viewer.axes.setAxes();
 
-
-
 window.onmousemove = () => viewer.IFC.selector.prePickIfcItem();
 
 window.ondblclick = async () => {
@@ -30,7 +28,6 @@ function createPropertiesMenu(properties) {
     delete properties.psets;
     delete properties.mats;
     delete properties.type;
-
 
     for (let key in properties) {
         createPropertyEntry(key, properties[key]);
